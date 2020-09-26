@@ -1,0 +1,3 @@
+# APEcoin
+APEcoin
+APEcoin (APE) is an open-source digital currency dedicated to celebrating the “ape” crypto meme in all its glory. The project was created by a dedicated group of crypto enthusiasts in July 2020, and is one part ERC-20 token, one part meme, and one part experimental ecosystem. Through multiple platforms, the APEcoin ecosystem allows users to explore various trending aspects of cryptocurrency in a fun, engaging way. The Meme Farm platform, allows users to participate in yield farming with APE, and awards limited edition “Crypto Girlfriend” NFTs to top holders. A browser game, GO APE!, is also currently in development, giving the APEcoin community a way to earn APE tokens through online gaming. APEcoin is currently traded on Uniswap.
