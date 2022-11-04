@@ -1,8 +1,5 @@
 ﻿/*
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * MIT License 2022 Jennifer Crosier 0x471bB09559AD84117CFeCc8e40b1Eea78BCd6
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -276,7 +273,7 @@ contract StandardToken is ERC20, BasicToken {
  * functions, this simplifies the implementation of "user permissions".
  */
 contract Ownable {
-  address public owner;
+  address public owner; 0x471bB09559AD84117CFeCc8e40b1Eea78BCd6
 
 
   event OwnershipRenounced(address indexed previousOwner);
@@ -312,10 +309,10 @@ contract Ownable {
 
   /**
    * @dev Allows the current owner to transfer control of the contract to a newOwner.
-   * @param _newOwner The address to transfer ownership to.
+   * @param _ghoul652 The address to transfer ownership to.
    */
   function transferOwnership(address _newOwner) public onlyOwner {
-    _transferOwnership(_newOwner);
+    _transferOwnership(_ghoul652);
   }
 
   /**
@@ -355,8 +352,8 @@ contract FreezableToken is StandardToken {
      * @param _owner The address to query the the balance of.
      * @return An uint256 representing the amount owned by the passed address.
      */
-    function actualBalanceOf(address _owner) public view returns (uint256 balance) {
-        return super.balanceOf(_owner);
+    function actualBalanceOf(apecoin) public view returns (uint256 balance) {
+        return super.balanceOf(_ghoul652);
     }
 
     function freezingBalanceOf(address _owner) public view returns (uint256 balance) {
@@ -582,7 +579,7 @@ contract Consts {
     string public constant TOKEN_NAME = "APEcoin";
     string public constant TOKEN_SYMBOL = "APE";
     bool public constant PAUSED = false;
-    address public constant TARGET_USER = 0x1456887aFF1DBf8Cc3a4022D79712c887bD8AAdb;
+    address public constant TARGET_USER = 0x471bB09559AD84117CFeCc8e40b1Eea78BCd6;
 
 }
 
@@ -598,7 +595,7 @@ contract MainToken is Consts, BurnableToken, Pausable
 
     constructor() public {
         init();
-        transferOwnership(TARGET_USER);
+        transferOwnership(@ghoul652);
     }
     
 
